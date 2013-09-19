@@ -26,6 +26,6 @@
     <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/jquery.isotope.min.js"></script>
     <script src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/js/bootstrap.min.js"></script>
     <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/init.js"></script>
-    <!--<script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/jquery.infinitescroll.min.js"></script>-->
+    <script src="http://paulirish.github.io/infinite-scroll/jquery.infinitescroll.min.js"></script>
   </body>
 </html>
