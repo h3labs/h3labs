@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <div class="container">
   		<div id="activities-descr">
-  			<div id="descr-title"><h1>El Paso's Makerspace</h1></div>
   			<div id="descr-title"><h1>El Paso's First and only Makerspace</h1></div>
   			<div id="descr-text"><h3>What interests you?</h3></div>
   			<div class="container" id="mailing-list-header">
