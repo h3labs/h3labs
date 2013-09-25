@@ -72,6 +72,7 @@ body {
 	left:0;
 	width:auto;
 	height: auto;
+	padding-bottom:30px;
 }
 #descr-text {
 	font-size:12px;
@@ -178,6 +179,20 @@ body {
 	font-size:10px;
 	color:#333333;
 	padding: 5px 20px 10px 20px;
+}
+.author-meta-single {
+	position:relative;
+	top:0;
+	left:0;
+	font-size:10px;
+	color:#333333;
+}
+.post-meta-date {
+	position:relative;
+	top:0;
+	left:0;
+	font-size:10px;
+	color:#333333;
 }
 /*Footer CSS*/
 #footer-wrapper {
@@ -356,4 +371,22 @@ ul#footer-list li a:hover {
  */
 .cf {
     *zoom: 1;
+}
+
+/*Metadata of Contributors*/
+.author-meta-bio {
+		position:relative;
+		top:0;
+		left:0;
+		font-weight:normal;
+		font-size:12px;
+}
+
+}
+.author-meta-title {
+	position:relative;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:12px;
 }
