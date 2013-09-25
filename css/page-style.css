@@ -194,6 +194,33 @@ body {
 	font-size:10px;
 	color:#333333;
 }
+
+/*Metadata of Contributors*/
+.author-meta-bio {
+		position:relative;
+		top:0;
+		left:0;
+		font-weight:normal;
+		font-size:12px;
+}
+.author-meta-title {
+	position:relative;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:18px;
+	padding: 12px 0 12px 0;
+}
+.author-meta-posts {
+	position:relative;
+	top:0;
+	left:0;
+	padding: 20px 0 0 0;
+}
+.author-meta-posts-list {
+	
+}
+
 /*Footer CSS*/
 #footer-wrapper {
 	position:relative;
@@ -332,29 +359,7 @@ ul#footer-list li a:hover {
 	width:250px;
 	}
 }
-/*Landscape Mode
-@media screen and (min-width: 481px), 
-  screen and (max-width: 940px) {
-  	.tile { 
-	width:200px;
-	}
-}
 
-@media only screen and (max-device-width: 640px), screen and (max-device-width:939 ) {
-  	.tile {
-	width:200px;
-	}
-}*/
-
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 .cf:before,
 .cf:after {
     content: " "; /* 1 */
@@ -364,29 +369,6 @@ ul#footer-list li a:hover {
 .cf:after {
     clear: both;
 }
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
 .cf {
     *zoom: 1;
-}
-
-/*Metadata of Contributors*/
-.author-meta-bio {
-		position:relative;
-		top:0;
-		left:0;
-		font-weight:normal;
-		font-size:12px;
-}
-
-}
-.author-meta-title {
-	position:relative;
-	top:0;
-	left:0;
-	font-weight:bold;
-	font-size:12px;
 }
