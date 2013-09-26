@@ -4,7 +4,7 @@
         <div class="form-all">
             <ul class="form-section">
             	<div class="input-append">
-				<input autocapitalize="off" autocorrect="off" class="span2" id="appendedInputButton input_1" name="q1_email" size="40" style="width:auto;" type="text">
+				<input autocapitalize="off" autocorrect="off" class="span2" id="appendedInputButton input_1" name="q1_email" size="40" style="width:150px;" type="text">
 				<!--<input autocapitalize="off" autocorrect="off" type="text" id="input_1" name="q1_email" size="40" style="width:auto;" />-->
 				<button id="input_2" class="btn btn-primary" type="submit">Sign Up</button>
 				</div>

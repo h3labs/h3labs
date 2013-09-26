@@ -25,6 +25,15 @@ moz::-moz-selection {
 body {
 	-webkit-tap-highlight-color: rgba(0,0,0,0.5);
 }
+.colouration-wrapper {
+	position:absolute;
+	width:100%;
+	height:210px;
+	background-image: url(http://slackentie.com/wp-content/themes/SlackenTie-V2/img/background.png);
+	background-size:cover;
+	background-position: 50% 50%;
+	border-bottom:2px solid rgba(0,0,0,0.20);
+}
 #header-container {
 	position:relative;
 	height:auto;
@@ -172,6 +181,8 @@ body {
 	color:#333333;
 	text-decoration:none;
 }
+
+/*Metadata of Contributors*/
 .author-meta {
 	position:relative;
 	top:0;
@@ -194,8 +205,6 @@ body {
 	font-size:10px;
 	color:#333333;
 }
-
-/*Metadata of Contributors*/
 .author-meta-bio {
 		position:relative;
 		top:0;
@@ -210,6 +219,7 @@ body {
 	font-weight:bold;
 	font-size:18px;
 	padding: 12px 0 12px 0;
+	color:#495961;
 }
 .author-meta-posts {
 	position:relative;
@@ -219,6 +229,17 @@ body {
 }
 .author-meta-posts-list {
 	
+}
+#author-wrapper {
+	padding-bottom:100px;
+}
+.author-meta-post-list-item {
+	position:relative;
+	padding: 4px 0 4px 0;
+}
+.author-meta-post-list-item a {
+	font-weight:bold;
+	color:#495961;
 }
 
 /*Footer CSS*/

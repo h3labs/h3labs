@@ -24,4 +24,11 @@ function register_my_menus() {
 }
 add_action( 'init', 'register_my_menus' );
 
+add_filter('get_avatar','change_avatar_css');
+
+function change_avatar_css($class) {
+$class = str_replace("class='avatar", "class='img-polaroid", $class) ;
+return $class;
+}
+
 ?>

@@ -5,7 +5,7 @@
     		</div>
     	
     	<div id="h3-teaser">H3 / Tritium Labs is a fiscally sponsored project of the School Factory, Inc. a 501(c)3 non-profit corporation.</div>
-    	<div id="footer-license">Proudly powered by WordPress, Website handcrafted by Guillermo Vargas @ Slackentie, LLC</div>
+    	<div id="footer-license">Proudly powered by WordPress, Website handcrafted by Guillermo Vargas @ SlackenTie, LLC</div>
     	<div id="mailing-list-form" class="input-append">
     	<div id="sign-up-instructions">Sign up to our mailing list!</div>
     	<form class="jotform-form" action="https://secure.jotform.us/submit.php" method="post" name="form_30436353195150" id="30436353195150" accept-charset="utf-8">
