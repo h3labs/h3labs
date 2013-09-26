@@ -20,8 +20,7 @@ jQuery(document).ready(function () {
             return false;
         });
     });
-});
-
+    
 var $elementHolder = jQuery('.elements');
 $elementHolder.infinitescroll({
     loading: {
@@ -50,5 +49,7 @@ $elementHolder.infinitescroll({
     contentSelector: null, // rename to pageFragment
     extraScrollPx: 150,
     itemSelector: "div.tile",
-    dataType: 'html'
+    dataType: 'ajax'
+});
+    
 });

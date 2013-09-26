@@ -36,8 +36,9 @@
   					<div><a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {the_post_thumbnail();} ?></a></div>
 						<?php } ?>
   					<div class="tile-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-  					<div class="author-meta"><i class="icon-user"></i> <?php the_author(); ?></div>
+  					<div class="author-meta"><i class="icon-user"></i><?php the_author_posts_link(); ?></div>
   					<div class="tile-description"><?php the_excerpt(); ?></div>
+  					<div class="post-read-more"><a href="<?php the_permalink(); ?>">READ MORE</a></div>
   					<div class="post-meta-wrapper">
   						<div class="aligncenter post-meta-comment-number"><i class="icon-comment"></i>  <?php echo $commentNumber ?></div>
   					</div>

@@ -24,6 +24,7 @@ moz::-moz-selection {
 }
 body {
 	-webkit-tap-highlight-color: rgba(0,0,0,0.5);
+	-webkit-overflow-scrolling: touch;
 }
 .colouration-wrapper {
 	position:absolute;
@@ -181,6 +182,47 @@ body {
 	color:#333333;
 	text-decoration:none;
 }
+.post-read-more {
+	margin: 0 auto 0 auto;
+	width:90px;
+	padding: 10px 0 40px 0;
+}
+.post-read-more a {
+	position:relative;
+	top:0;
+	left:0;
+	width:auto;
+	height:auto;
+	background: #e8e8e8;
+  	color: #333;
+  	font-size: 11px;
+  	font-weight: bold;
+  	-webkit-box-shadow: none;
+  	-moz-box-shadow: none;
+  	box-shadow: none;
+  	text-shadow: none;
+  	border: none;
+  	-webkit-font-smoothing: antialiased;
+  	-webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.08);
+  	-moz-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.08);
+  	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.08);
+  	white-space: nowrap;
+  	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding:10px;
+}
+.post-read-more a:hover {
+	background-color:#aaa;
+}
+.post-read-more a:active {
+	margin-top: 9px;
+	top:2px;
+  	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+  	-moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+  	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+  	padding-bottom: 9px;
+}
 
 /*Metadata of Contributors*/
 .author-meta {
@@ -190,6 +232,9 @@ body {
 	font-size:10px;
 	color:#333333;
 	padding: 5px 20px 10px 20px;
+}
+.author-meta a {
+	color:#003399;
 }
 .author-meta-single {
 	position:relative;
@@ -232,6 +277,7 @@ body {
 }
 #author-wrapper {
 	padding-bottom:100px;
+	padding-top:30px;
 }
 .author-meta-post-list-item {
 	position:relative;
