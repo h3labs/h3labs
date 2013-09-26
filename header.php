@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  	<link rel="icon" type="<?php bloginfo('stylesheet_directory'); ?>/assets/img/favicon.png" href="http://h3laboratories.com">
     <title>H3 Laboratories | El Paso, Texas - Makerspace/Hackerspace</title>
     <meta name="description" content="We are a makerspace located in El Paso, Texas. We offer space and tools for members to work on anything they want, from electronics to Chemistry." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">

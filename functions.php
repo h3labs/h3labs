@@ -31,4 +31,13 @@ $class = str_replace("class='avatar", "class='img-polaroid", $class) ;
 return $class;
 }
 
+add_filter('next_posts_link_attributes', 'sdac_next_posts_link_attributes');
+function sdac_next_posts_link_attributes(){
+        return 'class="older"';
+}
+add_filter('previous_posts_link_attributes', 'sdac_previous_posts_link_attributes');
+function sdac_previous_posts_link_attributes(){
+        return 'class="newer"';
+}
+
 ?>

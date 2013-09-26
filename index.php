@@ -27,6 +27,7 @@
   				<?php query_posts(array('posts_per_page' => 20, 'orderby' => 'desc', 'category_name' => 'interests', 'paged' => $paged)); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<?php $card_id = get_post_meta($post->ID, "Card_Identifier", true); ?>
+				<?php $commentNumber = get_comments_number( $post_id ); ?>
 				<?php $video_thumb = get_post_meta($post->ID, "Video_section", true); ?>
 				<div class="tile cf <?php echo $card_id; ?>" id="element-<?php get_the_ID(); ?>">
 				<?php if ($video_thumb) { ?>
@@ -37,6 +38,9 @@
   					<div class="tile-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
   					<div class="author-meta"><i class="icon-user"></i> <?php the_author(); ?></div>
   					<div class="tile-description"><?php the_excerpt(); ?></div>
+  					<div class="post-meta-wrapper">
+  						<div class="aligncenter post-meta-comment-number"><i class="icon-comment"></i>  <?php echo $commentNumber ?></div>
+  					</div>
   					<?php edit_post_link('Edit'); ?>
   				</div>
   				<?php endwhile; else: ?>
