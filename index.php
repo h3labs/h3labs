@@ -23,12 +23,13 @@
   			</div>
   		</div>
   		<?php if ( !dynamic_sidebar() ) : ?><?php endif; ?>
-  		<div id="main-body-wrapper" class="cf">
+  		<!--<div class="row">-->
+  		<div id="main-body-wrapper" class="cf span12">
   			<div id="tile-wrapper" class="cf elements">
   				
-  				<div class="cf tile">
+  				<!--<div class="cf tile">
   					<iframe width="370" height="590" src="http://meetu.ps/1DxlKY" frameborder="0"></iframe>
-  				</div>
+  				</div>-->
   				
   				<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
   				<?php query_posts(array('posts_per_page' => 20, 'orderby' => 'desc', 'category_name' => 'interests', 'paged' => $paged)); ?>
@@ -45,7 +46,7 @@
   					<div class="tile-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
   					<div class="author-meta"><i class="icon-user"></i><?php the_author_posts_link(); ?></div>
   					<div class="tile-description"><?php the_excerpt(); ?></div>
-  					<div class="post-read-more"><a href="<?php the_permalink(); ?>">READ MORE</a></div>
+  					<div class="post-read-more"><a href="<?php the_permalink(); ?>">Read More</a></div>
   					<div class="post-meta-wrapper">
   						<div class="aligncenter post-meta-comment-number"><i class="icon-comment"></i>  <?php echo $commentNumber ?></div>
   					</div>
@@ -55,6 +56,22 @@
 				<?php endif; ?>
   			</div>
   		</div>
+  		<!--<div class="span3">
+  			<ul class="nav nav-pills nav-stacked stacked-filters" data-toggle="buttons-checkbox">
+  				<button type="button" class="btn btn-primary">Left</button>
+  				<button type="button" class="btn btn-primary">Left</button>
+  					<li><a href="#" data-filter=".electronics"><i class="icon-tag"></i> Electronics</a></li>
+  					<li><a href="#" data-filter=".outdoor"><i class="icon-tag"></i> Outdoors</a></li>
+  					<li><a href="#" data-filter=".ham"><i class="icon-tag"></i> Radio</a></li>
+  					<li><a href="#" data-filter=".chemistry"><i class="icon-tag"></i> Chemistry</a></li>
+  					<li><a href="#" data-filter=".announcements"><i class="icon-tag"></i> Announcements</a></li>
+  					<li><a href="#" data-filter=".economics"><i class="icon-tag"></i> Economics</a></li>
+  					<li><a href="#" data-filter=".foundry"><i class="icon-tag"></i> Foundry</a></li>
+  					<li><a href="#" data-filter=".events"><i class="icon-tag"></i> Events</a></li>
+  					<li><a href="#" data-filter="*"><i class="icon-tag"></i> Show All</a></li>
+			</ul>
+  		</div>-->
+  		<!--</div>-->
   		<div><div id="navigation" class="next-page-btn"><p><?php posts_nav_link(); ?></p></div></div>
 </div>
 <?php get_footer(); ?>

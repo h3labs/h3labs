@@ -7,7 +7,7 @@ jQuery(document).ready(function () {
                 columnWidth: 0
             },
             animationOptions: {
-                duration: 750,
+                duration: 1,
                 easing: 'linear',
                 queue: false,
             }

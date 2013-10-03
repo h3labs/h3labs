@@ -10,15 +10,9 @@
   		<div class="row-fluid">   
   			<div class="span8"><?php the_content(); ?></div>
   			<?php edit_post_link('Edit'); ?>
-    		<!--<div class="span2 offset1">
-    			<div class="span12">
-    				<h3>About the author</h3>
-    				<div class="author-meta-image"><img src="http://distilleryimage8.ak.instagram.com/9b6d232a256811e387c422000ae911c7_7.jpg" class="img-polaroid" /></div>
-    				<div class="author-meta-name">Jesus Mendoza</div>
-    				<div class="author-meta-bio"><?php the_author_meta('description'); ?></div>
-    			</div>
+    		<div class="span2 offset1 post-toolkit">
+    			
     			<!--<div class="span3"><a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;">Share on Facebook</a></div>-->
-    		<!--</div>-->
 		</div>
 	</div>
 	<?php endwhile; ?>
