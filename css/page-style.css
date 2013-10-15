@@ -113,8 +113,8 @@ body {
 	margin: 0 0 0 0;
 }
 #filter-elements li a:hover {
-	background-color:#000000;
-	color:#FFFFFF;
+	background-color:#EEEEEE;
+	color:#333333;
 }
 /*Tiles CSS*/
 #tile-wrapper {
