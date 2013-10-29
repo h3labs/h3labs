@@ -122,6 +122,9 @@ body {
 	padding-bottom:50px;
 	min-height: 1080px;
 }
+.social-btns {
+	padding-left:0;
+}
 .tile {
 	position:relative;
 	top:0;
