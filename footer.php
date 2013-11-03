@@ -6,8 +6,8 @@
     	
     	<div id="h3-teaser">H3 / Tritium Labs is a fiscally sponsored project of the School Factory, Inc. a 501(c)3 non-profit corporation.</div>
     	<div id="footer-license">Proudly powered by WordPress, Website handcrafted by Guillermo Vargas @ SlackenTie, LLC</div>
-    	<div id="legal-text">The views expressed on this post, its comments, or any subsequent content are solely those of the author(s) 
-    		in their private capacities and do not in any way represent the views of H3 Laboratories, School Factory, Inc. or of any 
+    	<div id="legal-text">The views expressed on these posts, the comments, or any subsequent content are solely those of the author(s) 
+    		in their private capacities and may not necessarily represent the views of H3 Laboratories, School Factory, Inc. or of any 
     		organization(s) that the authours might be affiliated with.</div>
     	<div id="mailing-list-form" class="input-append">
     	<div id="sign-up-instructions">Sign up to our mailing list!</div>

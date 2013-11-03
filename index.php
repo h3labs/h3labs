@@ -72,6 +72,16 @@
 			</ul>
   		</div>-->
   		<!--</div>-->
-  		<div><div id="navigation" class="next-page-btn"><p><?php posts_nav_link(); ?></p></div></div>
+</div>
+<div class="container">
+	<!--<div id="navigation" class="next-page-btn"><?php posts_nav_link(); ?></div>-->
+	<ul class="pager">
+  <li class="previous custom-pagination">
+    <?php previous_posts_link('&larr; Newer Posts' ) ?>
+  </li>
+  <li class="next custom-pagination">
+    <?php next_posts_link('Older Posts &rarr;' ) ?>
+  </li>
+</ul>
 </div>
 <?php get_footer(); ?>

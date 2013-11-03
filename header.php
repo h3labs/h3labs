@@ -22,7 +22,10 @@
   	<div class="colouration-wrapper"></div>
   	<div class="container" id="header-container">
   		<div id="masthead">
-  		<div id="introduction"><a href="http://h3laboratories.com" style="a img {border:none;}"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo-retina-white.png" width="247px" height="52px" alt="H3 Laboratories"></a></div>
+  		<!--[if !IE]> -->
+  		<!--<div id="introduction"><a href="http://h3laboratories.com" style="a img {border:none;}"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo-retina-white.png" width="270px" height="57px" alt="H3 Laboratories">Hello</a></div>-->
+		<!-- <![endif]-->
+  		<div id="introduction"><a href="http://h3laboratories.com" style="a img {border:none;}"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo-retina-white.png" width="270px" height="57px" alt="H3 Laboratories"></a></div>
   		<div class="navbar hidden-phone" id="navigation-menu">
 				<div class="navbar-inner" id="responsive-navbar">
 					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
