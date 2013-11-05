@@ -23,6 +23,5 @@
     <?php endif; ?>
 	</div>
 <div class="container"><?php comments_template(); ?></div>
-
-    
 <?php get_footer(); ?>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/iframeFluidResize.js"></script>
