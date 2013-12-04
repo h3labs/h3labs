@@ -4,8 +4,7 @@
   			<div id="descr-title"><h1>El Paso's First and only Makerspace</h1></div>
   			<div id="descr-text"><h3>What interests you?</h3></div>
   			<div class="container" id="mailing-list-header">
-  				<h3>Sign up to our mailing list!</h3>
-  				<?php get_template_part( 'list-part' ); ?>
+  				<h3><a href="/list">Sign up to our mailing list!</a></h3>
   			</div>
   			<div id="filters">
   				<!--<div id="filter-title">Filters</div>-->

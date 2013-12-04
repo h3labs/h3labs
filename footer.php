@@ -9,7 +9,7 @@
     	<div id="legal-text">The views expressed on these posts, the comments, or any subsequent content are solely those of the author(s) 
     		in their private capacities and may not necessarily represent the views of H3 Laboratories, School Factory, Inc. or of any 
     		organization(s) that the authours might be affiliated with.</div>
-    	<div id="mailing-list-form" class="input-append">
+    	<!--<div id="mailing-list-form" class="input-append">
     	<div id="sign-up-instructions">Sign up to our mailing list!</div>
     	<form class="jotform-form" action="https://secure.jotform.us/submit.php" method="post" name="form_30436353195150" id="30436353195150" accept-charset="utf-8">
 				<input type="hidden" name="formID" value="30436353195150" />
@@ -22,7 +22,7 @@
 					document.getElementById("si" + "mple" + "_spc").value = "30436353195150-30436353195150";
 				</script>
 		</form>
-    	</div>
+    	</div>-->
     	</div>
     </div>
     <script src="http://code.jquery.com/jquery.js"></script>

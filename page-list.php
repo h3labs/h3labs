@@ -15,6 +15,44 @@
 									<input autocapitalize="off" autocorrect="off" type="text" id="input_1" name="q1_email" size="40" style="width:auto;" />
 								</div>
 							</li>
+							      <li class="form-line" id="id_3">
+        <center><label class="form-label-left" id="label_3" for="input_3">
+          Enter the message as it's shown<span class="form-required">*</span>
+        </label></center>
+        <div id="cid_3" class="form-input">
+          <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+          <div id="recaptcha_input_3">
+          </div>
+          <script type="text/javascript">
+          var rc_script_tag = document.createElement('script'),
+  rc_init_func = function()
+  {
+    Recaptcha.create("6Ld9UAgAAAAAAMon8zjt30tEZiGQZ4IIuWXLt1ky", "recaptcha_input_3", {
+      theme: "clean",
+      callback: function()
+      {
+        $("recaptcha_response_field").addClassName("validate[required]");
+        JotForm.validator()
+      }
+    });
+  }
+rc_script_tag.src = "http://www.google.com/recaptcha/api/js/recaptcha_ajax.js";
+rc_script_tag.type = 'text/javascript';
+rc_script_tag.onload = function()
+{
+  rc_init_func.call();
+};
+rc_script_tag.onreadystatechange = function()
+{
+  if (rc_script_tag.readyState == 'loaded' || rc_script_tag.readyState == 'complete')
+  {
+    rc_init_func.call();
+  }
+};
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(rc_script_tag);
+          </script>
+        </div>
+      </li>
 							<li class="form-line" id="id_2">
 								<div id="cid_2" class="form-input-wide">
 									<div style="margin:0 auto 0 auto" class="form-buttons-wrapper">
