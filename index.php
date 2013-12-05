@@ -6,6 +6,13 @@
   			<div class="container" id="mailing-list-header">
   				<h3><a href="/list">Sign up to our mailing list!</a></h3>
   			</div>
+  			<div class="container impact-container">
+  				<div id="industry-container">
+    			<em class="heading20">Scientists &amp; Engineers</em> <strong class="heading21"> <a href="/solutions/intelligence">Community</a> / <a href="/solutions/defense/">Networking</a> / <a href="/solutions/law-enforcement/">Tools &amp; Training</a> / <a href="/solutions/regulation-and-oversight/">Ideas</a>  •</strong>
+    			<em class="heading20">Artists &amp; Hobbyists</em> <strong class="heading21"> <a href="/solutions/cyber/">Community</a> / <a href="/solutions/legal-intelligence/">Materials</a> / <a href="/solutions/home-lending/">Help</a> •</strong>
+    			<em class="heading20">Everyone</em> <strong class="heading21"><a href="/solutions/pharmaceuticals/">Education</a> / <a href="/solutions/health-insurance/">Enlightenment</a></strong>
+    		</div>
+  			</div>
   			<div id="filters">
   				<!--<div id="filter-title">Filters</div>-->
   				<ul id="filter-elements" class="inline">
