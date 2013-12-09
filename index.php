@@ -10,9 +10,9 @@
   				<div class="container impact-container" style="background-image:url(http://farm6.staticflickr.com/5322/9482992769_43ed737562_k.jpg);">
   				<div id="industry-container">
   					<div class="impact-container-title">We enrich people through science, technology, art, and philosophy. We want to develop a community that changes El Paso forever. </div>
-    				<em class="heading20">Scientists &amp; Engineers</em> <strong class="heading21"> <a href="/solutions/intelligence">Community</a> / <a href="/solutions/defense/">Networking</a> / <a href="/solutions/law-enforcement/">Tools &amp; Training</a> / <a href="/solutions/regulation-and-oversight/">Ideas</a>  •</strong>
+    				<!--<em class="heading20">Scientists &amp; Engineers</em> <strong class="heading21"> <a href="/solutions/intelligence">Community</a> / <a href="/solutions/defense/">Networking</a> / <a href="/solutions/law-enforcement/">Tools &amp; Training</a> / <a href="/solutions/regulation-and-oversight/">Ideas</a>  •</strong>
     				<em class="heading20">Artists &amp; Hobbyists</em> <strong class="heading21"> <a href="/solutions/cyber/">Community</a> / <a href="/solutions/legal-intelligence/">Materials</a> / <a href="/solutions/home-lending/">Help</a> •</strong>
-    				<em class="heading20">Everyone</em> <strong class="heading21"><a href="/solutions/pharmaceuticals/">Education</a> / <a href="/solutions/health-insurance/">Enlightenment</a></strong>
+    				<em class="heading20">Everyone</em> <strong class="heading21"><a href="/solutions/pharmaceuticals/">Education</a> / <a href="/solutions/health-insurance/">Enlightenment</a></strong>-->
     			</div>
   			</div>
   			<div id="filters">
